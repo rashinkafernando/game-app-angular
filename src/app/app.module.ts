@@ -13,9 +13,11 @@ import { MatSelectModule } from '@angular/material/select';
 
 import { HttpClientModule } from '@angular/common/http';
 import { from } from 'rxjs';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
